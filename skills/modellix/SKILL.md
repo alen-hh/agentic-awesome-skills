@@ -4,14 +4,14 @@ description: "Integrate Modellix unified API/CLI for async AI image and video ge
 category: creative
 risk: critical
 source: community
-source_repo: Modellix/modellix-skill
+source_repo: Modellix/modellix-plugin
 source_type: official
 date_added: "2026-07-16"
 author: Modellix
 tags: [image-generation, video-generation, modellix, cli, api]
 tools: [claude, cursor, gemini]
 license: "MIT"
-license_source: "https://github.com/Modellix/modellix-skill/blob/main/LICENSE"
+license_source: "https://github.com/Modellix/modellix-plugin/blob/main/LICENSE"
 ---
 
 # Modellix
@@ -20,7 +20,7 @@ license_source: "https://github.com/Modellix/modellix-skill/blob/main/LICENSE"
 
 Modellix is a Model-as-a-Service platform for AI image and video generation. This skill teaches agents to use the official `modellix-cli` workflow (doctor → model run --wait → task download).
 
-Upstream package: https://github.com/Modellix/modellix-skill/tree/main/modellix-skill
+Upstream package: https://github.com/Modellix/modellix-plugin/tree/main/skills/modellix
 
 ## When to Use This Skill
 
