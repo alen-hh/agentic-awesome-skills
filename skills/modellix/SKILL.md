@@ -20,7 +20,7 @@ license_source: "https://github.com/Modellix/modellix-plugin/blob/main/LICENSE"
 
 Modellix is a Model-as-a-Service platform for AI image and video generation. This skill teaches agents to use the official `modellix-cli` workflow (doctor → model run --wait → task download).
 
-Upstream package: https://github.com/Modellix/modellix-plugin/tree/main/skills/modellix (the repository was renamed from `Modellix/modellix-skill`; the skill now ships inside an Open Plugins package).
+Upstream package: https://github.com/Modellix/modellix-plugin/tree/main/skills/modellix (Open Plugins layout; skill tree under `skills/modellix/`).
 
 ## When to Use This Skill
 
@@ -33,7 +33,7 @@ Upstream package: https://github.com/Modellix/modellix-plugin/tree/main/skills/m
 
 1. Authenticate with `MODELLIX_API_KEY` or `modellix-cli auth login`
 2. Run `modellix-cli doctor --json`
-3. Use default models when unspecified (T2I: `google/nano-banana-2-lite`, T2V: `bytedance/seedance-2.0-mini-t2v`, I2I: `google/nano-banana-2-lite-edit`, I2V: `bytedance/seedance-2.0-fast-i2v`, V2V: `bytedance/seedance-2.0-fast-v2v`)
+3. Use default models when unspecified (T2I: `google/nano-banana-2-lite`, T2V: `bytedance/seedance-2.0-mini-t2v`, I2I: `google/nano-banana-2-lite-edit`, I2V: `bytedance/seedance-2.0-fast-i2v`, V2V: `bytedance/seedance-2.0-fast-v2v`, TTS: `alibaba/qwen-audio-3.0-tts-flash`, STT: `openai/whisper-1`, STS: `alibaba/cosyvoice-clone`)
 4. Submit with `modellix-cli model run --wait --json`
 5. Persist outputs with `modellix-cli task download`
 
